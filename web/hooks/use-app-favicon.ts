@@ -10,7 +10,7 @@ type UseAppFaviconOptions = {
   icon_background?: string | null
   icon_url?: string | null
 }
-
+ 
 export function useAppFavicon(options: UseAppFaviconOptions) {
   const {
     enable = true,
